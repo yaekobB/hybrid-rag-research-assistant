@@ -63,5 +63,7 @@ structure.txt
 # (Optional) Large binary documents
 # If you want to allow PDFs in specific places, comment these out.
 ############################
-*.pdf
 *.docx
+*.pdf
+!docs/**/*.pdf
+
