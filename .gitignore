@@ -1,0 +1,67 @@
+############################
+# Python / Virtual Envs
+############################
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+.venv/
+venv/
+ENV/
+env/
+
+############################
+# Environment secrets
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# Logs
+############################
+logs/
+*.log
+
+############################
+# Streamlit
+############################
+.streamlit/
+
+############################
+# OS / IDE
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################
+# Test / coverage artifacts
+############################
+.pytest_cache/
+.coverage
+htmlcov/
+
+############################
+# Local data & generated artifacts
+# (Your project generates these)
+############################
+# Uploaded PDFs (usually don't push; keep only if they're public samples)
+data/pdfs_uploaded/
+
+# Vector DB / Chroma persistence (generated)
+data/vector_store/
+data/vectorstore/
+*.sqlite3
+
+# Optional: generated structure listing
+structure.txt
+
+############################
+# (Optional) Large binary documents
+# If you want to allow PDFs in specific places, comment these out.
+############################
+*.pdf
+*.docx
