@@ -205,7 +205,15 @@ python -m streamlit run app/ui/ui_streamlit.py
 
 ---
 
-## 6. Debugging & Troubleshooting
+## 6. Sample outputs (PDF)
+- [Plain Question Answer](docs/sample_output/research_answer_plain_question.pdf)
+- [Summarize](docs/sample_output/research_answer_summarize.pdf)
+- [Survey](docs/sample_output/research_answer_survey.pdf)
+- [Research Plan](docs/sample_output/research_answer_research_plan.pdf)
+- [Research Proposal](docs/sample_output/research_answer_research_proposal.pdf)
+
+
+## 7. Debugging & Troubleshooting
 
 - **No answer / error during retrieval**
   - Check that PDFs were ingested (for `local` mode).
@@ -224,7 +232,7 @@ python -m streamlit run app/ui/ui_streamlit.py
 
 ---
 
-## 7. Future Improvements
+## 8. Future Improvements
 
 - Learnable task-type classifier (instead of rule-based planner).
 - More advanced retrieval (multi-query, reranking, keyword + dense hybrid).
