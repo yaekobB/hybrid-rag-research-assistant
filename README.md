@@ -1,6 +1,6 @@
 # LLM-Powered Research Assistant
 
-A modular, exam-ready **research assistant** that combines:
+A modular, RAG-based **research assistant** that combines:
 
 - Local **Retrieval-Augmented Generation (RAG)** over user-uploaded PDFs  
 - **Web RAG** using Tavily for fresh external knowledge  
@@ -9,7 +9,7 @@ A modular, exam-ready **research assistant** that combines:
 - A **Reflection** module that critiques and improves those answers  
 - A Streamlit **web UI** with LLM parameter control and PDF export
 
-This project was developed for the *Neuro-Symbolic AI Lab* exam and is designed to demonstrate
+This project was developed to demonstrate
 multi-step reasoning, contextual grounding, and transparent, research-style outputs.
 
 ---
@@ -98,7 +98,6 @@ project-root/
 └─ .env.example                # Example for environment variables (Tavily API key, etc.)
 ```
 
-> ℹ️ Your local repository may contain additional files (e.g., `.streamlit/`, Docker files, etc.). You can extend this section to match your exact layout.
 
 ---
 
@@ -107,8 +106,8 @@ project-root/
 1. **Clone the repository**
 
 ```bash
-git clone <your-repo-url>.git
-cd project-root
+git clone https://github.com/yaekobB/hybrid-rag-research-assistant.git
+cd hybrid-rag-research-assistant
 ```
 
 2. **Create and activate a virtual environment** (recommended)
@@ -233,6 +232,3 @@ python -m streamlit run app/ui/ui_streamlit.py
 - Logging and evaluation scripts for quantitative assessment of answer quality.
 
 ---
-
-If you use this project for a course exam, thesis, or research prototype, you can easily extend it
-with new tools, task types, or evaluation routines while keeping a clear and explainable architecture.
